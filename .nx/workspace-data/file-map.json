@@ -1,0 +1,54 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.1",
+  "deps": {
+    "lerna": "^8.1.8"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "6682711420523055390"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "12045298878146693828"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11220940823208253616"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "9102539532870586950"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "2971430246146515072"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9424076379140771565"
+      },
+      {
+        "file": "package.json",
+        "hash": "1559442140913815864"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "11871306925915444747"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13612076589829982719"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}
