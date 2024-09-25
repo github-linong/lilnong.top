@@ -20230,3 +20230,9 @@ TypeError: Cannot destructure property 'packages' of '(0 , fileutils_1.readYamlF
 [NX Daemon Server] - 2024-09-25T12:01:59.057Z - Done responding to the client project-graph
 [NX Daemon Server] - 2024-09-25T12:01:59.057Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
 [NX Daemon Server] - 2024-09-25T12:01:59.060Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-09-25T12:02:58.333Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-25T12:02:58.391Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-25T12:02:58.447Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-25T12:02:58.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-25T12:02:58.574Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-09-25T12:02:58.671Z - [WATCHER]: Processing file changes in outputs
