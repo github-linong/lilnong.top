@@ -1,10 +1,5 @@
 "use client";
 
-import Image from "next/image";
-import { useEffect } from "react";
-import { checkAuthCookie } from "../../lib/cookie/authCookie";
-import { useRouter } from "next/router";
-
 const blogDetails = {
     1: {
         title: "如何使用 Next.js 构建网站",
@@ -17,7 +12,7 @@ const blogDetails = {
     // 继续添加其他博客详情
 };
 export default function Home() {
-    const router = useRouter();
+    const router = { query: {} };
     const { id } = router.query;
 
     // 获取对应博客的详情数据

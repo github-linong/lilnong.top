@@ -9,16 +9,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "pnpm-lock.yaml",
-        "hash": "2383977768782775063"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13612076589829982719"
-      },
-      {
-        "file": "nx.json",
-        "hash": "1921754567074770008"
+        "file": ".vscode/settings.json",
+        "hash": "9102539532870586950"
       },
       {
         "file": ".gitignore",
@@ -29,12 +21,20 @@
         "hash": "2971430246146515072"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "9102539532870586950"
+        "file": "pnpm-lock.yaml",
+        "hash": "2383977768782775063"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "11220940823208253616"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13612076589829982719"
       },
       {
         "file": "package.json",
@@ -61,7 +61,7 @@
         },
         {
           "file": "packages/portal/package.json",
-          "hash": "12957337194821540182",
+          "hash": "15582518636195567384",
           "deps": [
             "npm:@types/node",
             "npm:@types/react",
@@ -100,7 +100,7 @@
         },
         {
           "file": "packages/portal/src/app/layout.tsx",
-          "hash": "14224271451138203790"
+          "hash": "2700599010295730154"
         },
         {
           "file": "packages/portal/src/app/lib/constant/nav.ts",
@@ -164,15 +164,15 @@
         },
         {
           "file": "packages/portal/src/app/about/page.tsx",
-          "hash": "14691068368487278559"
+          "hash": "4268026009931477305"
         },
         {
           "file": "packages/portal/src/app/blog/page.tsx",
-          "hash": "15654654929641763410"
+          "hash": "3029116855206919920"
         },
         {
           "file": "packages/portal/src/app/projects/page.tsx",
-          "hash": "2581247300405872987"
+          "hash": "5412422792051291573"
         },
         {
           "file": "packages/portal/src/app/projects/[id]/demo/page.tsx",
@@ -184,7 +184,11 @@
         },
         {
           "file": "packages/portal/src/app/blog/[id]/page.tsx",
-          "hash": "15511157940547687224"
+          "hash": "13821954073785888643"
+        },
+        {
+          "file": "packages/portal/package-lock.json",
+          "hash": "183437027338472456"
         }
       ]
     }

@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 type Project = {
     id: number;
     name: string;
@@ -26,19 +28,19 @@ const projects: Project[] = [
 export default function Home() {
     return (
         <div className="min-h-screen bg-gray-100 p-8">
-            <h1 className="text-4xl font-bold mb-8 text-black">项目列表</h1>
+            {/* <h1 className="text-4xl font-bold mb-8 text-black">项目列表</h1> */}
+            <h1 className="text-5xl font-extrabold mb-12 text-center">项目列表</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {projects.map((project) => (
-                    <div key={project.id} className="bg-white shadow-md rounded-lg p-6">
+                    <Link key={project.id} href={project.link} className="bg-white shadow-md rounded-lg p-6  transform transition duration-300  hover:scale-105 hover:shadow-2xl">
                         <h2 className="text-2xl font-semibold mb-4">{project.name}</h2>
                         <p className="text-gray-700 mb-4">{project.description}</p>
-                        <a
-                            href={project.link}
+                        <div
                             className="text-blue-500 hover:underline"
                         >
                             查看详情
-                        </a>
-                    </div>
+                        </div>
+                    </Link>
                 ))}
             </div>
         </div>

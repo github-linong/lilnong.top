@@ -53,7 +53,9 @@ export default function RootLayout({
                 {/* © 2024 我的个人网站. 保留所有权利. */}
               </p>
             </footer>
-          </div>{children}</div></body>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }

@@ -1,4 +1,7 @@
 "use client";
+
+import Link from "next/link";
+
 type BlogPost = {
     id: number;
     title: string;
@@ -31,25 +34,17 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold mb-12 text-center">博客列表</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             {blogPosts.map((post) => (
-                <div key={post.id} className="bg-white shadow-lg rounded-xl overflow-hidden">
-                    {/* <img src={post.image} alt={post.title} className="w-full h-48 object-cover" /> */}
-                    <img src={post.image} alt={post.title} className="w-full h-48 object-cover" src={`${"https://picsum.photos/800/600"}?${post.image}`} alt="Random Unsplash Image" />
-                    <div className="p-6 flex flex-col justify-between h-full">
-                        <div>
-                            <h2 className="text-3xl font-bold mb-4 text-gray-900">{post.title}</h2>
-                            <p className="text-gray-600 mb-6">{post.description}</p>
-                        </div>
+                <Link key={post.id} href={post.link} className="group block bg-white shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+                    <img src={post.image} alt={post.title} className="w-full h-48 object-cover" />
+                    <div className="p-6">
+                        <h2 className="text-3xl font-bold mb-4 text-gray-900 group-hover:text-blue-600 transition duration-300">{post.title}</h2>
+                        <p className="text-gray-600 mb-6">{post.description}</p>
                         <div className="flex justify-between items-center">
                             <p className="text-sm text-gray-500">发布日期: {post.date}</p>
-                            <a
-                                href={post.link}
-                                className="text-blue-500 font-semibold hover:underline"
-                            >
-                                阅读更多
-                            </a>
+                            <span className="text-blue-500 font-semibold group-hover:underline">阅读更多</span>
                         </div>
                     </div>
-                </div>
+                </Link>
             ))}
         </div>
     </div>);
