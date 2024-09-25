@@ -9,20 +9,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "6682711420523055390"
-      },
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "12045298878146693828"
-      },
-      {
         "file": ".vscode/extensions.json",
         "hash": "11220940823208253616"
       },
       {
+        "file": "pnpm-lock.yaml",
+        "hash": "2383977768782775063"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13612076589829982719"
+      },
+      {
         "file": ".vscode/settings.json",
         "hash": "9102539532870586950"
+      },
+      {
+        "file": "package.json",
+        "hash": "1559442140913815864"
       },
       {
         "file": "lerna.json",
@@ -33,22 +37,132 @@
         "hash": "1921754567074770008"
       },
       {
-        "file": "package-lock.json",
-        "hash": "9424076379140771565"
-      },
-      {
-        "file": "package.json",
-        "hash": "1559442140913815864"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "11871306925915444747"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13612076589829982719"
+        "file": ".gitignore",
+        "hash": "6682711420523055390"
       }
     ],
-    "projectFileMap": {}
+    "projectFileMap": {
+      "portal": [
+        {
+          "file": "packages/portal/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "packages/portal/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "packages/portal/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "packages/portal/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "packages/portal/package.json",
+          "hash": "12957337194821540182",
+          "deps": [
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:postcss@8.4.41",
+            "npm:tailwindcss",
+            "npm:typescript",
+            "npm:next",
+            "npm:qiankun",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-scripts"
+          ]
+        },
+        {
+          "file": "packages/portal/postcss.config.mjs",
+          "hash": "2557392112968376575"
+        },
+        {
+          "file": "packages/portal/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "packages/portal/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "packages/portal/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "packages/portal/src/app/globals.css",
+          "hash": "10620967136394561243"
+        },
+        {
+          "file": "packages/portal/src/app/layout.tsx",
+          "hash": "1021738086302571481"
+        },
+        {
+          "file": "packages/portal/src/app/lib/constant/nav.ts",
+          "hash": "8176149744293826365"
+        },
+        {
+          "file": "packages/portal/src/app/lib/cookie/authCookie.ts",
+          "hash": "10586062980038150842"
+        },
+        {
+          "file": "packages/portal/src/app/page.tsx",
+          "hash": "8116184215859536410"
+        },
+        {
+          "file": "packages/portal/src/app/static/layout.tsx",
+          "hash": "1941926389882269926"
+        },
+        {
+          "file": "packages/portal/src/app/static/page.tsx",
+          "hash": "6680653876434196554"
+        },
+        {
+          "file": "packages/portal/src/global.d.ts",
+          "hash": "8320380847900300945"
+        },
+        {
+          "file": "packages/portal/tailwind.config.ts",
+          "hash": "8266647255848899898"
+        },
+        {
+          "file": "packages/portal/tsconfig.json",
+          "hash": "4320684160905164141"
+        },
+        {
+          "file": "packages/portal/src/app/pages/projects/[id].tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/portal/src/app/pages/projects/[id]/demo.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/portal/src/app/pages/about.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/portal/src/app/pages/projects copy/[id].tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/portal/src/app/pages/projects copy/[id]/demo.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/portal/src/app/pages/blog/page.tsx",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/portal/src/app/pages/projects/page.tsx",
+          "hash": "3244421341483603138"
+        }
+      ]
+    }
   }
 }
