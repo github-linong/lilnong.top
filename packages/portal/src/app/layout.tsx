@@ -37,6 +37,7 @@ export default function RootLayout({
         }}>
       </Script>
       <Script
+        id="aliyun-analytics"
         dangerouslySetInnerHTML={{
           __html: `
         !(function(c,b,d,a){c[a] || (c[a] = {});c[a].config={pid:"bthzxo624i@b8098d5c30312f3",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?"};
@@ -46,6 +47,7 @@ export default function RootLayout({
         }}>
       </Script>
       <Script
+        id="baidu-analytics"
         dangerouslySetInnerHTML={{
           __html: `
         var _hmt = _hmt || [];

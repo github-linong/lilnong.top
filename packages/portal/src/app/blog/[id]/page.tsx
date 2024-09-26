@@ -12,7 +12,7 @@ const blogDetails = {
     // 继续添加其他博客详情
 };
 export default function Home() {
-    const router = { query: {} };
+    const router = { query: { id: 1 } };
     const { id } = router.query;
 
     // 获取对应博客的详情数据

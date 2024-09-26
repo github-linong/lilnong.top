@@ -9,6 +9,10 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".vscode/extensions.json",
+        "hash": "11220940823208253616"
+      },
+      {
         "file": ".vscode/settings.json",
         "hash": "9102539532870586950"
       },
@@ -17,28 +21,24 @@
         "hash": "1559442140913815864"
       },
       {
-        "file": "nx.json",
-        "hash": "1921754567074770008"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13612076589829982719"
-      },
-      {
         "file": "lerna.json",
         "hash": "2971430246146515072"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "6682711420523055390"
       },
       {
         "file": "pnpm-lock.yaml",
         "hash": "2383977768782775063"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "11220940823208253616"
+        "file": "pnpm-workspace.yaml",
+        "hash": "13612076589829982719"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6682711420523055390"
       }
     ],
     "projectFileMap": {
@@ -57,11 +57,11 @@
         },
         {
           "file": "packages/portal/next.config.mjs",
-          "hash": "6567081978241091914"
+          "hash": "16860344895868126830"
         },
         {
           "file": "packages/portal/package.json",
-          "hash": "15582518636195567384",
+          "hash": "14732011611461905032",
           "deps": [
             "npm:@types/node",
             "npm:@types/react",
@@ -100,7 +100,7 @@
         },
         {
           "file": "packages/portal/src/app/layout.tsx",
-          "hash": "2984757684745190674"
+          "hash": "13195759388150075684"
         },
         {
           "file": "packages/portal/src/app/lib/constant/nav.ts",
@@ -184,11 +184,11 @@
         },
         {
           "file": "packages/portal/src/app/blog/[id]/page.tsx",
-          "hash": "13821954073785888643"
+          "hash": "9830033305488170480"
         },
         {
           "file": "packages/portal/package-lock.json",
-          "hash": "183437027338472456"
+          "hash": "12808834265861377454"
         }
       ]
     }
