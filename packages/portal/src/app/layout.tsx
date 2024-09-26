@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { checkAuthCookie } from "./lib/cookie/authCookie";
-import React from "react";
+import React from "react"; import Script from 'next/script';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,43 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
+      <Script
+        strategy="afterInteractive" async src="https://www.googletagmanager.com/gtag/js?id=G-SZZNDW21W6"></Script>
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-SZZNDW21W6');
+          `,
+        }}>
+      </Script>
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
+        !(function(c,b,d,a){c[a] || (c[a] = {});c[a].config={pid:"bthzxo624i@b8098d5c30312f3",imgUrl:"https://arms-retcode.aliyuncs.com/r.png?"};
+        with(b)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("crossorigin","",src=d)
+		})(window,document,"https://retcode.alicdn.com/retcode/bl.js","__bl");
+          `,
+        }}>
+      </Script>
+      <Script
+        dangerouslySetInnerHTML={{
+          __html: `
+        var _hmt = _hmt || [];
+        (function() {
+		  var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?0b53b11d3930be87062f66b4b8ce2822";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+		})();
+          `,
+        }}>
+      </Script>
       <body className={inter.className}>
         <div className="min-w-[960px]">
 
